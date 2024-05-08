@@ -51,7 +51,7 @@ switch(OP){
 case 1:
 
 	printf("Introduce el dato a encriptar(SIN ESPACIOS):");
-	scanf("%100s",mensaje);
+	scanf("%100s",&mensaje);
 	Pmensaje = mensaje;
 	Pkey=RANDKEY(); //RANDOMIZA LA KEY
 	printf("\n\r");
@@ -61,7 +61,7 @@ case 1:
 	break;
 case 2:
 	printf("Introduce el mensaje a desencriptar:");
-	scanf("%100s",mensaje);
+	scanf("%100s",&mensaje);
 	printf("\n\r");
 	Pmensaje = mensaje;
 	printf("Introduce clave:");
